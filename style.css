@@ -1,20 +1,16 @@
-<style>
-body {
-	background: rgba(242,246,248,1);
-background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 28%, rgba(181,198,208,1) 54%, rgba(224,239,249,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(28%, rgba(216,225,231,1)), color-stop(54%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
-background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 28%, rgba(181,198,208,1) 54%, rgba(224,239,249,1) 100%);
-background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 28%, rgba(181,198,208,1) 54%, rgba(224,239,249,1) 100%);
-background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 28%, rgba(181,198,208,1) 54%, rgba(224,239,249,1) 100%);
-background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 28%, rgba(181,198,208,1) 54%, rgba(224,239,249,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
-	}
-
-h1 {
-	color: purple;
-	position: center;
-	font-size: 35px;
-	font-family: Garamond, Arial, sans-serif;
+.header {
+	background: url("Carousel.jpg") no-repeat center center;
+	background-size: cover;
+	display: block;
+	margin: auto;
+	width: 500px;
+	height: 100px;
+	color: #9aafbc;
+	padding-top: 5px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 p {
@@ -26,4 +22,3 @@ ul {
 	width: 300px;
 	font-family: Georgia, sans-serif;
 }
-</style>
